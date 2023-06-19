@@ -1,0 +1,40 @@
+footer {
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.keyboard-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.keyboard-column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #D3D6DA;
+    width: 40px;
+    height: 55px;
+    border-radius: 15%;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #D3D6DA;
+}
+
+.wide {
+    width: 65px;
+    height: 55px;
+    font-size: 13px;
+}
+
+.wide img {
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+}

@@ -1,0 +1,36 @@
+header {
+    margin: 30px;
+    width: 100vw;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.icons {
+    width: 45px;
+    height: 45px;
+}
+
+.icons img {
+    justify-content: center;
+    align-items: center;
+}
+
+.icons-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons-right-1 {
+    width: 45px;
+    height: 45px;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons-right-1 img {
+    width: 40px;
+    height: 40px;
+}
